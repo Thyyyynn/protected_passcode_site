@@ -99,7 +99,7 @@
             const enteredCodeEncoded = btoa(enteredCode);
 
             if (enteredCodeEncoded === correctPasscodeEncoded) {
-                window.location.href = "authorized/index.html";
+                window.location.href = "authorized/";
             } else {
                 errorMessage.textContent = 'Incorrect passcode. Please try again.';
                 passcodeInput.value = '';
