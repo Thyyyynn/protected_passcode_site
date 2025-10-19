@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Authorized Code</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #eee;
+      width: 60vw;
+      margin: 15vh auto;
+      font-family: system-ui, sans-serif;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+    div {
+      opacity: 0.8;
+    }
+    a:link,
+    a:visited {
+      color: #348;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Authorized</h1>
+    <p>Your code has been verified and authorized.</p>
+    <button onclick="direct()">Go To Destination</button>
+  </div>
+</body>
+</html>
+
+<script>
+  function direct() {
+    window.location.href = "example.com";
+  }
+</script>
